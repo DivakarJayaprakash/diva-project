@@ -1,0 +1,6 @@
+table{
+    background-color:rgb(180, 249, 238);
+}
+th:nth-child(n+1){
+    background-color: rgb(243, 53, 53);
+}

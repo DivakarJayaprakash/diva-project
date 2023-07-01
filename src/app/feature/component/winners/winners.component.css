@@ -1,0 +1,9 @@
+th:nth-child(n+1){
+    background-color: rgb(255, 155, 5);
+}
+table{
+    background-color: rgb(0, 0, 0);
+}
+th,td{
+    background-color: rgb(247, 255, 165);
+}

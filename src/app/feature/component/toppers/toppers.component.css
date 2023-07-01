@@ -1,0 +1,14 @@
+th,td {
+    background-color: rgb(250, 130, 190);
+    font-size: medium;
+ }
+ tr:nth-child(5n+1){
+    background-color: rgb(238, 215, 100);
+ }
+table{
+    background-color: black;
+}
+ttt{
+    background-color: aqua;
+}
+

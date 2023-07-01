@@ -1,0 +1,45 @@
+ 
+.main-container{
+    width: 400px;
+  
+  } 
+  .primary-heading{
+      color: #fff;
+      margin: 6px auto;
+      font-weight: 600;
+      padding: 8px;
+      font-size: medium;
+    }
+  .popup-header{
+      background: red;
+  }
+  .header-content{
+    flex-grow: 5;
+  }
+  .popup-content{
+    margin: 16px 0px 0px 0px;
+  }
+  .popup-acknowledgement{
+    margin: 1px 0px 0px 10px;
+  }
+    .btn{
+      margin: 16px 8px;
+    }
+    .btn-cancel{
+      background: #757575;
+      color: #fff;
+      margin-left: 0px;
+    }
+     .btn-delete{
+      background: #F44336;
+     }
+    .button-div{
+      margin: 2px auto;
+    }
+    .display-row-format {
+      display: flex;
+      flex-direction: row;
+    }
+    .button-div button mat-icon {
+      color:  #fff;
+  }

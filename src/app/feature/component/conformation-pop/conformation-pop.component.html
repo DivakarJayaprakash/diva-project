@@ -1,0 +1,45 @@
+
+<div class="container-fluid main-container">
+    <div class="row popup-header">
+      <div class="col-md-12 display-row-format">
+        <div class="header-content">
+          <h6 class="primary-heading">Confirm Add winners</h6>
+        </div>
+        <div class="button-div">
+          <button mat-icon-button aria-label="close icon" mat-dialog-close>
+            <mat-icon>close</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-md-12 ps-4">
+        <p class="popup-content"> Do you really want to Add to winners?</p>
+      </div>
+    </div>
+    
+    <!-- <mat-divider></mat-divider> -->
+    <div class="row">
+      <div class="col-md-12">
+        <div style="float: right">
+        
+            <button mat-raised-button type="button"   class="btn btn-cancel"  [mat-dialog-close]="true" color="warn"
+            cdkFocusInitial>
+            Cancel
+          </button>         
+          <button
+            mat-raised-button
+            type="button"
+            class="btn"
+             (click)="deleteClick(1)"
+            [mat-dialog-close]="true"
+            color="warn"
+            cdkFocusInitial
+          >
+            Add
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
